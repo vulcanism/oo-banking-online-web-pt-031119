@@ -9,7 +9,7 @@ class BankAccount
   end
   
   def deposit(money)
-    money.to_i + @balance
+    self.balance += money
   end
 
 end
